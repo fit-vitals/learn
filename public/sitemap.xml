@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://vitals.guide</loc>
+  </url>
+
+  <url>
+    <loc>https://vitals.guide/tracking-core-web-vitals</loc>
+  </url>
+
+  <url>
+    <loc>https://vitals.guide/metrics/cls</loc>
+  </url>
+
+  <url>
+    <loc>https://vitals.guide/metrics/fid</loc>
+  </url>
+
+  <url>
+    <loc>https://vitals.guide/metrics/lcp</loc>
+  </url>
+</urlset>

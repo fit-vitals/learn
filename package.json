@@ -1,0 +1,35 @@
+{
+  "name": "improve-next-vitals",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "NODE_ENV=production next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.2.0",
+    "@tailwindcss/ui": "^0.3.1",
+    "fathom-client": "^3.0.0",
+    "install": "^0.13.0",
+    "next": "9.4.4",
+    "next-google-fonts": "^1.2.1",
+    "postcss-import": "^12.0.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-syntax-highlighter": "^12.2.1",
+    "sass": "^1.26.10",
+    "tailwindcss": "^1.5.1"
+  },
+  "devDependencies": {
+    "globby": "^11.0.1",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.0.5"
+  },
+  "browserslist": [
+    ">0.5%",
+    "not ie 11",
+    "not dead",
+    "not op_mini all"
+  ]
+}
