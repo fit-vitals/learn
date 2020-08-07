@@ -32,26 +32,29 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Vitals.Guide</title>
-        <meta name="title" content="Vitals.Guide" />
+        <title>Fit Vitals - Core Web Vitals Guide</title>
+        <meta name="title" content="Fit Vitals - Core Web Vitals Guide" />
         <meta
           name="description"
           content="An interactive guide for exploring Core Web Vitals. Start tracking and improving your Web Vitals today."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://vitals.guide/" />
-        <meta property="og:title" content="Vitals.Guide" />
+        <meta property="og:url" content="https://learn.fitvials.dev/" />
+        <meta
+          property="og:title"
+          content="Fit Vitals - Core Web Vitals Guide"
+        />
         <meta
           property="og:description"
           content="An interactive guide for exploring Core Web Vitals. Start tracking and improving your Web Vitals today."
         />
         <meta
           property="og:image"
-          content="https://vitals.guide/vitals-guide.png"
+          content="https://learn.fitvials.dev//vitals-guide.png"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://vitals.guide/" />
+        <meta property="twitter:url" content="https://learn.fitvials.dev/" />
         <meta property="twitter:title" content="Vitals.Guide" />
         <meta
           property="twitter:description"
@@ -59,7 +62,7 @@ function MyApp({ Component, pageProps }) {
         />
         <meta
           property="twitter:image"
-          content="https://vitals.guide/vitals-guide.png"
+          content="https://learn.fitvitals.dev/vitals-guide.png"
         />
 
         <link rel="icon" href="/favicon.ico" />

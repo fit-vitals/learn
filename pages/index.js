@@ -40,7 +40,7 @@ export default function Home() {
   return (
     <div className="container mx-auto p-8 md:p-12">
       <Head>
-        <title>Vitals.Guide</title>
+        <title>Fit Vitals - Core Web Vitals Guide</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -49,7 +49,7 @@ export default function Home() {
           <div className="flex flex-wrap justify-center">
             <div className="flex-row w-screen text-center">
               <h1 className="mt-1 text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:leading-none sm:text-6xl lg:text-5xl xl:text-6xl">
-                Vitals.Guide
+                Core Web Vitals Guide
               </h1>
             </div>
             <div className="flex-row pt-8 prose">

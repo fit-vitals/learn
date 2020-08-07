@@ -36,7 +36,7 @@ export default function LargestContentfulPaint() {
   return (
     <div className="container mx-auto p-12">
       <Head>
-        <title>Vitals.Guide</title>
+        <title>Fit Vitals - Core Web Vitals Guide</title>
         <link rel="icon" href="/favicon.ico" />
         <script
           type="application/ld+json"
@@ -52,9 +52,9 @@ export default function LargestContentfulPaint() {
                 "position": 1,
                 "item":
                 {
-                 "@id": "https://vitals.guide/",
+                 "@id": "https://learn.fitvitals.dev/",
                  "name": "Web Vitals",
-                 "url": "https://vitals.guide/"
+                 "url": "https://learn.fitvitals.dev/"
                  }
                },
                {
@@ -62,9 +62,9 @@ export default function LargestContentfulPaint() {
                "position": 2,
                "item":
                 {
-                  "@id": "https://vitals.guide/metrics/lcp",
+                  "@id": "https://learn.fitvitals.dev/metrics/lcp",
                   "name": "Largest Contentful Paint",
-                  "url": "https://vitals.guide.com/metrics/lcp"
+                  "url": "https://learn.fitvitals.dev.com/metrics/lcp"
                 }
                }
               ]

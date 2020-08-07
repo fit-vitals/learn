@@ -43,7 +43,7 @@ export default function CumulativeLayoutShift() {
   return (
     <div className="container mx-auto p-12">
       <Head>
-        <title>Vitals.Guide</title>
+        <title>Fit Vitals - Core Web Vitals Guide</title>
         <link rel="icon" href="/favicon.ico" />
         <script
           type="application/ld+json"
@@ -59,9 +59,9 @@ export default function CumulativeLayoutShift() {
                 "position": 1,
                 "item":
                 {
-                 "@id": "https://vitals.guide/",
+                 "@id": "https://learn.fitvitals.dev/",
                  "name": "Web Vitals",
-                 "url": "https://vitals.guide/"
+                 "url": "https://learn.fitvitals.dev/"
                  }
                },
                {
@@ -69,9 +69,9 @@ export default function CumulativeLayoutShift() {
                "position": 2,
                "item":
                 {
-                  "@id": "https://vitals.guide/metrics/cls",
+                  "@id": "https://learn.fitvitals.dev/metrics/cls",
                   "name": "Cumulative Layout Shift",
-                  "url": "https://vitals.guide/metrics/cls"
+                  "url": "https://learn.fitvitals.dev/metrics/cls"
                 }
                }
               ]

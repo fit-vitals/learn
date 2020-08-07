@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://vitals.guide/sitemap.xml
+Sitemap: https://learn.fitvitals.dev/sitemap.xml

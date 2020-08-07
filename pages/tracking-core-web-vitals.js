@@ -12,7 +12,7 @@ export default function TrackingCoreWebVitals() {
   return (
     <div className="container mx-auto p-12">
       <Head>
-        <title>Vitals.Guide</title>
+        <title>Fit Vitals - Core Web Vitals Guide</title>
         <link rel="icon" href="/favicon.ico" />
         <script
           type="application/ld+json"
@@ -28,9 +28,9 @@ export default function TrackingCoreWebVitals() {
             "position": 1,
             "item":
             {
-             "@id": "https://vitals.guide/",
+             "@id": "https://learn.fitvitals.dev/",
              "name": "Web Vitals",
-             "url": "https://vitals.guide/"
+             "url": "https://learn.fitvitals.dev/"
              }
            },
            {
@@ -38,9 +38,9 @@ export default function TrackingCoreWebVitals() {
            "position": 2,
            "item":
             {
-              "@id": "https://vitals.guide/how-to-track-web-vitals",
+              "@id": "https://learn.fitvitals.dev/how-to-track-web-vitals",
               "name": "How to Track Web Vitals",
-              "url": "https://vitals.guide/how-to-track-web-vitals"
+              "url": "https://learn.fitvitals.dev/how-to-track-web-vitals"
             }
            }
           ]

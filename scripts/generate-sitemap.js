@@ -25,7 +25,7 @@ const prettier = require("prettier");
 
                 return `
                         <url>
-                            <loc>${`https://vitals.guide${route}`}</loc>
+                            <loc>${`https://learn.fitvitals.dev${route}`}</loc>
                         </url>
                     `;
               })
