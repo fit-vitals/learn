@@ -11,7 +11,7 @@ export default function Footer(props) {
           <div className="px-5 py-2">
             <a
               href="/"
-              className="text-base leading-6 text-gray-500 hover:text-gray-900"
+              className="text-base leading-6 text-gray-500 hover:text-secondary"
             >
               About
             </a>
@@ -19,7 +19,7 @@ export default function Footer(props) {
           <div className="px-5 py-2">
             <a
               href="/"
-              className="text-base leading-6 text-gray-500 hover:text-gray-900"
+              className="text-base leading-6 text-gray-500 hover:text-secondary"
             >
               Analytics
             </a>
@@ -27,7 +27,7 @@ export default function Footer(props) {
           <div className="px-5 py-2">
             <a
               href="/"
-              className="text-base leading-6 text-gray-500 hover:text-gray-900"
+              className="text-base leading-6 text-gray-500 hover:text-secondary"
             >
               Contact
             </a>
@@ -35,7 +35,7 @@ export default function Footer(props) {
           <div className="px-5 py-2">
             <a
               href="/"
-              className="text-base leading-6 text-gray-500 hover:text-gray-900"
+              className="text-base leading-6 text-gray-500 hover:text-secondary"
             >
               Newsletter
             </a>
@@ -43,7 +43,7 @@ export default function Footer(props) {
           <div className="px-5 py-2">
             <a
               href="/"
-              className="text-base leading-6 text-gray-500 hover:text-gray-900"
+              className="text-base leading-6 text-gray-500 hover:text-secondary"
             >
               Tech Stack
             </a>

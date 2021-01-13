@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Head from "next/head";
 import Link from "next/link";
+import FloatingBanner from "../components/floating-banner";
 import { useMetricsFromLocalStorage } from "../utils/useMetricsFromLocalStorage";
 const ReportWebVitalsSnippet = dynamic(() =>
   import("../components/reportWebVitalsSnippet")
@@ -48,7 +49,7 @@ export default function Home() {
         <div>
           <div className="flex flex-wrap justify-center">
             <div className="flex-row w-screen text-center">
-              <h1 className="mt-1 text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:leading-none sm:text-6xl lg:text-5xl xl:text-6xl">
+              <h1 className="mt-1 text-4xl tracking-tight leading-10 font-extrabold text-secondary sm:leading-none sm:text-6xl lg:text-5xl xl:text-6xl">
                 Core Web Vitals Guide
               </h1>
             </div>
@@ -231,7 +232,7 @@ export default function Home() {
           <div className="pt-8">
             <button
               onClick={getMetricsFromLocalStorage}
-              className="mt-3 w-full px-6 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-gray-800 shadow-sm hover:bg-gray-700 focus:outline-none focus:shadow-outline active:bg-gray-900 transition duration-150 ease-in-out sm:mt-0 sm:ml-3 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto"
+              className="mt-3 w-full px-6 py-3 border border-transparent text-primary leading-6 font-medium rounded-md text-white bg-gray-800 shadow-sm hover:bg-gray-700 focus:outline-none focus:shadow-outline active:bg-primary transition duration-150 ease-in-out sm:mt-0 sm:ml-3 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto"
             >
               Load my vitals
             </button>

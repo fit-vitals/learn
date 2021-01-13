@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import HowToTrackWebVitals from "../components/howToTrackWebVitals";
+import FloatingBanner from "../components/floating-banner";
 const ReportWebVitalsSnippet = dynamic(() =>
   import("../components/reportWebVitalsSnippet")
 );
@@ -51,6 +52,8 @@ export default function TrackingCoreWebVitals() {
       </Head>
 
       <main>
+        <FloatingBanner />
+
         <div className="container">
           <div>
             {/* breadcrumbs */}
@@ -81,7 +84,7 @@ export default function TrackingCoreWebVitals() {
           </div>
           <div className="flex flex-wrap justify-center pt-3 lg:pt-6">
             <div className="flex-row w-screen text-center">
-              <h1 className="mt-1 text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:leading-none sm:text-6xl lg:text-5xl xl:text-6xl">
+              <h1 className="mt-1 text-4xl tracking-tight leading-10 font-extrabold text-secondary sm:leading-none sm:text-6xl lg:text-5xl xl:text-6xl">
                 How to Track Web Vitals
               </h1>
             </div>

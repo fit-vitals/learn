@@ -2,13 +2,13 @@ import Link from "next/link";
 
 export default function Explore(props) {
   return (
-    <div className="relative bg-gray-50 pt-16 pb-20 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
+    <div className="relative bg-gray-50 pt-16 pb-20 sm:px-6 lg:pt-24 lg:pb-12 lg:px-8">
       <div className="absolute inset-0">
         <div className="bg-white h-1/3 sm:h-2/3"></div>
       </div>
       <div className="relative max-w-7xl mx-auto">
         <div className="text-center">
-          <h2 className="text-3xl leading-9 tracking-tight font-extrabold text-gray-900 sm:text-4xl sm:leading-10">
+          <h2 className="text-3xl leading-9 tracking-tight font-extrabold text-secondary sm:text-4xl sm:leading-10">
             Explore Vitals
           </h2>
           <p className="mt-3 max-w-2xl mx-auto text-xl leading-7 text-gray-500 sm:mt-4">
@@ -38,14 +38,14 @@ export default function Explore(props) {
               </div>
               <div className="flex-1 bg-white p-6 flex flex-col justify-between">
                 <div className="flex-1">
-                  <p className="text-sm leading-5 font-medium text-blue-600">
+                  <p className="text-sm leading-5 font-medium text-secondary-3">
                     <Link href="/metrics/cls">
                       <a className="hover:underline">Core Web Vital</a>
                     </Link>
                   </p>
                   <Link href="/metrics/cls">
                     <a className="block">
-                      <h3 className="mt-2 text-xl leading-7 font-semibold text-gray-900">
+                      <h3 className="mt-2 text-xl leading-7 font-semibold text-secondary">
                         Cumulative Layout Shift (CLS)
                       </h3>
                       <p className="mt-3 text-base leading-6 text-gray-500">
@@ -73,14 +73,14 @@ export default function Explore(props) {
               </div>
               <div className="flex-1 bg-white p-6 flex flex-col justify-between">
                 <div className="flex-1">
-                  <p className="text-sm leading-5 font-medium text-blue-600">
+                  <p className="text-sm leading-5 font-medium text-secondary-3">
                     <Link href="/metrics/lcp">
                       <a className="hover:underline">Core Web Vital</a>
                     </Link>
                   </p>
                   <Link href="/metrics/lcp">
                     <a className="block">
-                      <h3 className="mt-2 text-xl leading-7 font-semibold text-gray-900">
+                      <h3 className="mt-2 text-xl leading-7 font-semibold text-secondary">
                         Largest Contentful Paint (LCP)
                       </h3>
                       <p className="mt-3 text-base leading-6 text-gray-500">
@@ -109,14 +109,14 @@ export default function Explore(props) {
               </div>
               <div className="flex-1 bg-white p-6 flex flex-col justify-between">
                 <div className="flex-1">
-                  <p className="text-sm leading-5 font-medium text-blue-600">
+                  <p className="text-sm leading-5 font-medium text-secondary-3">
                     <Link href="/metrics/fid">
                       <a className="hover:underline"> Core Web Vital</a>
                     </Link>
                   </p>
                   <Link href="/metrics/fid">
                     <a className="block">
-                      <h3 className="mt-2 text-xl leading-7 font-semibold text-gray-900">
+                      <h3 className="mt-2 text-xl leading-7 font-semibold text-secondary">
                         First Input Delay (FID)
                       </h3>
                       <p className="mt-3 text-base leading-6 text-gray-500">
@@ -144,14 +144,14 @@ export default function Explore(props) {
               </div>
               <div className="flex-1 bg-white p-6 flex flex-col justify-between">
                 <div className="flex-1">
-                  <p className="text-sm leading-5 font-medium text-blue-600">
+                  <p className="text-sm leading-5 font-medium text-secondary-3">
                     <Link href="/metrics/fid">
                       <a className="hover:underline"> Guide </a>
                     </Link>
                   </p>
                   <Link href="/tracking-core-web-vitals">
                     <a className="block">
-                      <h3 className="mt-2 text-xl leading-7 font-semibold text-gray-900">
+                      <h3 className="mt-2 text-xl leading-7 font-semibold text-secondary">
                         How to Track Core Web Vitals
                       </h3>
                       <p className="mt-3 text-base leading-6 text-gray-500">
@@ -175,14 +175,14 @@ export default function Explore(props) {
             </div>
             <div className="flex-1 bg-white p-6 flex flex-col justify-between">
               <div className="flex-1">
-                <p className="text-sm leading-5 font-medium text-blue-600">
+                <p className="text-sm leading-5 font-medium text-secondary-3">
                   <a href="/" className="hover:underline">
                     {" "}
                     Web Vital
                   </a>
                 </p>
                 <a href="/" className="block">
-                  <h3 className="mt-2 text-xl leading-7 font-semibold text-gray-900">
+                  <h3 className="mt-2 text-xl leading-7 font-semibold text-secondary">
                     Time to Fist Byte (TTFB)
                   </h3>
                   <p className="mt-3 text-base leading-6 text-gray-500">

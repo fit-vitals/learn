@@ -7,6 +7,8 @@ import GoogleFonts from "next-google-fonts";
 import * as Fathom from "fathom-client";
 import { useRouter } from "next/router";
 import { getMetricCodeFromName } from "../utils/metricHelper";
+import NewsletterSignup from "../components/NewsletterSignup";
+import Layout from "../components/Layout";
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
@@ -50,7 +52,7 @@ function MyApp({ Component, pageProps }) {
         />
         <meta
           property="og:image"
-          content="https://learn.fitvials.dev//vitals-guide.png"
+          content="https://learn.fitvials.dev/vitals-guide.png"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
@@ -68,8 +70,9 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <GoogleFonts href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
-      <Component {...pageProps} />
-      <Footer />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </>
   );
 }
